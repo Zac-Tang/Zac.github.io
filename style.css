@@ -1,0 +1,249 @@
+/* 设置全局字体和颜色 */
+* {
+    font-family: Arial, sans-serif;
+    color: #333;
+}
+
+/* 设置容器的宽度，水平居中，边框和内边距 */
+.container {
+    width: 800px;
+    margin: 0 auto;
+    border: 1px solid #ccc;
+    padding: 20px;
+}
+
+/* 设置标题的字号和对齐方式 */
+h1 {
+    font-size: 36px;
+    text-align: center;
+}
+
+/* 设置副标题的字号和对齐方式 */
+h2 {
+    font-size: 24px;
+    text-align: left;
+}
+
+/* 设置导航栏的样式，去除列表符号，水平排列，添加边框和背景色 */
+.nav {
+    list-style: none;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    border-bottom: 1px solid #ccc;
+    background-color: #eee;
+}
+
+/* 设置导航栏链接的样式，去除下划线，添加内边距 */
+.nav a {
+    text-decoration: none;
+    padding: 10px;
+}
+
+/* 设置导航栏链接的悬停效果，改变颜色 */
+.nav a:hover {
+    color: white;
+    background-color: #333;
+}
+
+/* 设置导航栏链接的激活效果，改变颜色 */
+.nav a.active {
+    color: white;
+    background-color: #333;
+}
+
+/* 设置子容器的样式，添加边框和内边距 */
+.subcontainer {
+    border: 1px solid #ccc;
+    padding: 10px;
+}
+
+
+/* 设置清除浮动的样式 */
+.clear {
+    clear: both;
+}
+*{
+	margin: 0;
+	padding: 0;
+}
+.box{
+	width: 600px; /* 增加宽度 */
+	height: 360px; /* 增加高度 */
+	border: 1px solid black;
+	border-radius: 20px;
+	margin: 30px auto;
+	padding-top: 60px;
+	background-color: #FFA07A; 
+	box-sizing: border-box;
+}
+.top{
+	width: 500px; /* 增加宽度 */
+	height: 50px; /* 增加高度 */
+	background-color: #FFFF00; 
+	margin: 0 auto;	
+}
+.bottom{
+	width: 500px; /* 增加宽度 */
+	height: 50px; /* 增加高度 */
+	background-color: #FF00FF; 
+	margin: 0 auto;	
+}
+.middle{
+	width: 500px; /* 增加宽度 */
+	height: 120px; /* 增加高度 */
+	background-color: #32CD32; 
+	margin: 0 auto;	
+}
+
+
+.box1 {
+    width: 550px;
+    height: 330px;
+    border: 1px solid black;
+    background-color: #FFA07A; /* 橙色 */
+    border-radius: 20px;
+    margin: 30px auto;
+    padding-left: 50px;
+    padding-top: 50px;
+    box-sizing: border-box;
+  }
+  
+  .left {
+    width: 110px;
+    height: 220px;
+    background-color: #FF00FF; /* 紫色 */
+    float: left;
+  }
+  
+  .right {
+    width: 330px;
+    height: 220px;
+    background-color: #00FF00; /* 绿色 */
+    float: left;
+  }
+  
+  .box2 {
+    width: 600px;
+    height: 480px;
+    border: 1px solid black;
+    padding-left: 50px;
+    border-radius: 20px;
+    margin: 30px auto;
+    padding-top: 70px;
+    background-color: #FF6347; 
+    box-sizing: border-box;
+  }
+  
+  .left1 {
+    width: 60px;
+    height: 240px;
+    background-color: #FF4500; 
+    float: left;
+  }
+  
+  .right1 {
+    width: 420px;
+    height: 240px;
+    background-color: #4682B4; 
+    float: left;
+  }
+  
+  .top1 {
+    width: 480px;
+    height: 36px;
+    background-color: #FF69B4; 
+  }
+  
+  .foot1 {
+    width: 480px;
+    height: 36px;
+    background-color: #FFD700; 
+    clear: left;
+  }
+  
+
+  .box3 {
+    width: 480px;
+    height: 240px;
+    border: 1px solid black;
+    background-color: #FFD700; 
+    border-radius: 20px;
+    margin: 30px auto;
+    padding-top: 50px;
+    box-sizing: border-box;
+  }
+  
+  .middle1 {
+    width: 360px;
+    height: 120px;
+    background-color: #800080; 
+    margin: 0 auto;
+  }
+  
+
+  .box9 {
+    width: 600px;
+    height: 480px;
+    border: 1px solid black;
+    padding-left: 50px;
+    border-radius: 20px;
+    margin: 30px auto;
+    padding-top: 40px;
+    background-color: #FFE4B5; 
+    box-sizing: border-box;
+  }
+  
+  .left9 {
+    width: 120px;
+    height: 240px;
+    background-color: #FF6B6B; 
+    float: left;
+  }
+  
+  .right9 {
+    width: 120px;
+    height: 240px;
+    background-color: #FF6B6B; 
+    float: left;
+  }
+  
+  .middle9 {
+    width: 240px;
+    height: 240px;
+    background-color: #0000FF; 
+    float: left;
+  }
+  
+  .nav9 {
+    width: 480px;
+    height: 48px;
+    background-color: #080808; 
+  }
+  
+  .top9 {
+    width: 480px;
+    height: 60px;
+    background-color: #FFC0CB; 
+  }
+  
+  .foot9 {
+    width: 480px;
+    height: 36px;
+    background-color: #FFFF00; 
+    clear: left;
+  }
+  
+  /* 底部样式 */
+.foot {
+  text-align: center; /* 文字居中 */
+  color: #fff; /* 文字颜色*/
+  padding: 10px 0; /* 添加一些内边距以提高可读性 */
+}
+
+/* 文字居中 */
+.center-text {
+  display: inline-block; /* 使文本内容可以水平居中 */
+}
+
+    p{margin: 0 auto;text-align: center;}
